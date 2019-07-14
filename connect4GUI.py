@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from PIL import ImageTk, Image
 import sys
-import time
+
 
 root = Tk()
 root.title("Connect Four")
