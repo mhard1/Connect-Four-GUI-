@@ -3,7 +3,6 @@ from tkinter import messagebox
 from PIL import ImageTk, Image
 import sys
 
-
 root = Tk()
 root.title("Connect Four")
 root.configure(background='blue')
@@ -12,7 +11,6 @@ root.resizable(False, False)
 empty_img = ImageTk.PhotoImage(Image.open("empty_space.png"))
 yellow_img = ImageTk.PhotoImage(Image.open("yellow_space.png"))
 red_img = ImageTk.PhotoImage(Image.open("red_space.png"))
-yellow_turn = ImageTk.PhotoImage(Image.open("yellow_circle.png"))
 
 def make_row():
     row = ['' for x in range(6)]
